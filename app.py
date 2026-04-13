@@ -1,8 +1,14 @@
-import streamlit as st,pandas as pd,re,plotly.express as px,plotly.graph_objects as go
+import streamlit as st
+import pandas as pd
+import re
+import plotly.express as px
+import plotly.graph_objects as go
 from collections import Counter
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
-
+from collections import Counter
+from googleapiclient.discovery import build
+from googleapiclient.errors import HttpError
 st.set_page_config(page_title="YT댓글분석기",page_icon="🎬",layout="wide")
 st.markdown("""<style>
 .stApp{background:linear-gradient(160deg,#0f0c29,#302b63,#24243e)}
